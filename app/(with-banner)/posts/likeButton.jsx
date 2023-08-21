@@ -1,4 +1,5 @@
-'use client'
+'use client' // indica que este componente necesita utilizar el cliente
+             // por lo tanto, no será de servidor
 
 import { useState } from "react"
 
