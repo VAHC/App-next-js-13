@@ -1,5 +1,10 @@
 import '../styles/globals.css'
+import { Font } from 'next/font/google'
 import { Navigation } from '../components/Navigation'
+
+// const font = Space_Grotesk({
+//   weight: ['400', '700']
+// })
 
 export const metadata = {
   title: 'Next.js',
@@ -10,7 +15,8 @@ export default function RootLayout({ children }) {
  return (
     <html lang="en">
       <head>
-        <title>My first app with Next JS 13</title>
+        <title>🙀</title>
+        <Font family="Space Grotesk" weights={[400, 700]} />
       </head>
       <body>
         <Navigation />
